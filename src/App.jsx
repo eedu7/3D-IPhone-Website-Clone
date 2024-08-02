@@ -2,6 +2,7 @@ import './App.css'
 import {Navbar} from "./components/Navbar.jsx";
 import {Hero} from "./components/Hero.jsx";
 import {HighLights} from "./components/HighLights.jsx";
+import {Model} from "./components/Model.jsx";
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <HighLights />
+          <Model />
       </main>
   )
 }
